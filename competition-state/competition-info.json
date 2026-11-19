@@ -1,6 +1,15 @@
 {
   "id": "robot-basketball-competition-20261119",
   "name": "Robot Basketball Competition 2026-11-19",
-  "robots": [],
+  "robots": [
+    {"id": "bender", "name": "Bender"},
+    {"id": "coughing-baby", "name": "Coughing Baby"},
+    {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
+    {"id": "munakivi", "name": "Munakivi"},
+    {"id": "mustik", "name": "Mustik"},
+    {"id": "optimus-crime", "name": "Optimus Crime"},
+    {"id": "rim-reaper", "name": "Rim Reaper"},
+    {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"}
+  ],
   "tournament": null
 }
