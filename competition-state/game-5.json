@@ -54,7 +54,10 @@
     },
     {
       "scores": [
-        [{"time": 1795111414371, "isValid": true}],
+        [
+          {"time": 1795111414371, "isValid": true},
+          {"time": 1795111432754, "isValid": true}
+        ],
         [
           {"time": 1795111404999, "isValid": true},
           {"time": 1795111411091, "isValid": true}
