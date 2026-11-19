@@ -476,7 +476,10 @@
           {
             "scores": [[], []],
             "fouls": [
-              [{"time": 1795111590816, "isValid": true}],
+              [
+                {"time": 1795111590816, "isValid": true},
+                {"time": 1795111627060, "isValid": true}
+              ],
               [{"time": 1795111594814, "isValid": true}]
             ],
             "readyStates": [true, true],
@@ -699,7 +702,10 @@
       {
         "scores": [[], []],
         "fouls": [
-          [{"time": 1795111590816, "isValid": true}],
+          [
+            {"time": 1795111590816, "isValid": true},
+            {"time": 1795111627060, "isValid": true}
+          ],
           [{"time": 1795111594814, "isValid": true}]
         ],
         "readyStates": [true, true],
