@@ -963,29 +963,46 @@
                 {"time": 1795114459414, "isValid": true},
                 {"time": 1795114468082, "isValid": true},
                 {"time": 1795114475959, "isValid": true},
-                {"time": 1795114501231, "isValid": false}
+                {"time": 1795114501231, "isValid": false},
+                {"time": 1795114544687, "isValid": true}
               ],
               [
                 {"time": 1795114463187, "isValid": true},
                 {"time": 1795114497534, "isValid": true}
               ]
             ],
-            "fouls": [[], []],
+            "fouls": [[], [{"time": 1795114534864, "isValid": true}]],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
+            "hasEnded": true,
+            "isConfirmed": true,
+            "confirmTime": 1795114549062,
+            "duration": 60106,
+            "timeLimit": 60000,
+            "winnerIndex": 0,
+            "runs": [
+              {"startTime": 1795114443439, "endTime": 1795114499888},
+              {"startTime": 1795114538736, "endTime": 1795114542393}
+            ]
+          },
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
             "confirmTime": null,
-            "duration": 56449,
+            "duration": 0,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1795114443439, "endTime": 1795114499888}]
+            "runs": []
           }
         ],
         "status": {
           "result": "unknown",
-          "indexCounts": {"0": 0, "1": 1, "-1": 0},
-          "completedRoundCount": 1
+          "indexCounts": {"0": 1, "1": 1, "-1": 0},
+          "completedRoundCount": 2
         },
         "ballPlacement": [
           [0, 0],
@@ -1079,7 +1096,7 @@
         "tieBreakScore": 12,
         "rank": 4,
         "score": 5,
-        "gameScores": [10, 0, {"min": 0, "max": 8, "completedRoundCount": 1}],
+        "gameScores": [10, 0, {"min": 2, "max": 8, "completedRoundCount": 2}],
         "totalScore": 10,
         "finishedGamesCount": 2
       },
@@ -1088,7 +1105,7 @@
         "tieBreakScore": 13,
         "rank": 5,
         "score": 4.5,
-        "gameScores": [9, 0, {"min": 2, "max": 10, "completedRoundCount": 1}],
+        "gameScores": [9, 0, {"min": 2, "max": 8, "completedRoundCount": 2}],
         "totalScore": 9,
         "finishedGamesCount": 2
       },
@@ -1170,29 +1187,46 @@
             {"time": 1795114459414, "isValid": true},
             {"time": 1795114468082, "isValid": true},
             {"time": 1795114475959, "isValid": true},
-            {"time": 1795114501231, "isValid": false}
+            {"time": 1795114501231, "isValid": false},
+            {"time": 1795114544687, "isValid": true}
           ],
           [
             {"time": 1795114463187, "isValid": true},
             {"time": 1795114497534, "isValid": true}
           ]
         ],
-        "fouls": [[], []],
+        "fouls": [[], [{"time": 1795114534864, "isValid": true}]],
         "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
+        "hasEnded": true,
+        "isConfirmed": true,
+        "confirmTime": 1795114549062,
+        "duration": 60106,
+        "timeLimit": 60000,
+        "winnerIndex": 0,
+        "runs": [
+          {"startTime": 1795114443439, "endTime": 1795114499888},
+          {"startTime": 1795114538736, "endTime": 1795114542393}
+        ]
+      },
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "readyStates": [false, false],
+        "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 56449,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795114443439, "endTime": 1795114499888}]
+        "runs": []
       }
     ],
     "status": {
       "result": "unknown",
-      "indexCounts": {"0": 0, "1": 1, "-1": 0},
-      "completedRoundCount": 1
+      "indexCounts": {"0": 1, "1": 1, "-1": 0},
+      "completedRoundCount": 2
     },
     "ballPlacement": [
       [0, 0],
