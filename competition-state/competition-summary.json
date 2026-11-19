@@ -943,10 +943,13 @@
             "hasEnded": false,
             "isConfirmed": false,
             "confirmTime": null,
-            "duration": 30975,
+            "duration": 30978,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1795114285336, "endTime": 1795114316311}]
+            "runs": [
+              {"startTime": 1795114285336, "endTime": 1795114316311},
+              {"startTime": 1795114344696, "endTime": null}
+            ]
           }
         ],
         "status": {
@@ -1117,10 +1120,13 @@
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 30975,
+        "duration": 30979,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795114285336, "endTime": 1795114316311}]
+        "runs": [
+          {"startTime": 1795114285336, "endTime": 1795114316311},
+          {"startTime": 1795114344696, "endTime": null}
+        ]
       }
     ],
     "status": {
