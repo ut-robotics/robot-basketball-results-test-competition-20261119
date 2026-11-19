@@ -681,107 +681,46 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "optimus-crime", "name": "Optimus Crime"},
-      {"id": "rim-reaper", "name": "Rim Reaper"}
+      {"id": "munakivi", "name": "Munakivi"},
+      {"id": "mustik", "name": "Mustik"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1795111025606, "isValid": true},
-            {"time": 1795111040103, "isValid": true}
-          ],
-          [
-            {"time": 1795111028727, "isValid": true},
-            {"time": 1795111125000, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1795111083862, "isValid": true}], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795111136780,
-        "duration": 60005,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1795111014330, "endTime": 1795111063616},
-          {"startTime": 1795111118952, "endTime": 1795111129671}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1795111242301, "isValid": true},
-            {"time": 1795111251542, "isValid": true},
-            {"time": 1795111266508, "isValid": true}
-          ],
-          [{"time": 1795111233326, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1795111272822, "isValid": true}], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795111314290,
-        "duration": 60107,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1795111224169, "endTime": 1795111268040},
-          {"startTime": 1795111292496, "endTime": 1795111308732}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1795111414371, "isValid": true},
-            {"time": 1795111432754, "isValid": true}
-          ],
-          [
-            {"time": 1795111404999, "isValid": true},
-            {"time": 1795111411091, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [false, false],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795111462140,
-        "duration": 60046,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "confirmTime": null,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795111397536, "endTime": 1795111457582}]
+        "runs": []
       }
     ],
     "status": {
-      "result": "won",
-      "indexCounts": {"0": 1, "1": 0, "-1": 2},
-      "completedRoundCount": 3,
-      "winner": {"id": "optimus-crime", "name": "Optimus Crime"},
-      "roundWinCount": 1,
-      "roundLossCount": 0,
-      "roundTieCount": 2
+      "result": "unknown",
+      "indexCounts": {"0": 0, "1": 0, "-1": 0},
+      "completedRoundCount": 0
     },
     "ballPlacement": [
       [0, 0],
-      [-0.82, -0.38],
-      [0.82, 0.38],
-      [-0.61, -1.3],
-      [0.61, 1.3],
-      [2.11, -0.99],
-      [-2.11, 0.99],
-      [0.29, -0.9],
-      [-0.29, 0.9],
-      [-1.32, 0.28],
-      [1.32, -0.28]
+      [0.8, 1.01],
+      [-0.8, -1.01],
+      [1.62, -0.34],
+      [-1.62, 0.34],
+      [1.74, 0.29],
+      [-1.74, -0.29],
+      [-1.82, 0.9],
+      [1.82, -0.9],
+      [0.34, -1.4],
+      [-0.34, 1.4]
     ]
   }
 }
