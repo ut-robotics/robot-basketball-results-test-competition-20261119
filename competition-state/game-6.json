@@ -36,7 +36,7 @@
           {"time": 1795111814410, "isValid": true},
           {"time": 1795111843232, "isValid": true}
         ],
-        []
+        [{"time": 1795111881848, "isValid": true}]
       ],
       "readyStates": [true, true],
       "baskets": ["blue", "magenta"],
@@ -47,7 +47,7 @@
       "runs": [
         {"startTime": 1795111805712, "endTime": 1795111810104},
         {"startTime": 1795111834824, "endTime": 1795111839288},
-        {"startTime": 1795111854328, "endTime": null}
+        {"startTime": 1795111854328, "endTime": 1795111877952}
       ]
     }
   ],
