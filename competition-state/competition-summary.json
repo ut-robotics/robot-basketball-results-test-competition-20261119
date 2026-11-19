@@ -37,7 +37,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[{"time": 1795109293397, "isValid": true}], []],
@@ -66,19 +66,23 @@
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "confirmTime": null,
-            "duration": 49589,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "confirmTime": 1795109546604,
+            "duration": 60107,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1795109480288, "endTime": null}]
+            "winnerIndex": 0,
+            "runs": [{"startTime": 1795109480288, "endTime": 1795109540395}]
           }
         ],
         "status": {
-          "result": "unknown",
-          "indexCounts": {"0": 1, "1": 0, "-1": 0},
-          "completedRoundCount": 1
+          "result": "won",
+          "indexCounts": {"0": 2, "1": 0, "-1": 0},
+          "completedRoundCount": 2,
+          "winner": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
         },
         "ballPlacement": [
           [0, 0],
@@ -230,19 +234,19 @@
         "robot": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
         "tieBreakScore": 0,
         "rank": 1,
-        "score": 0,
-        "gameScores": [{"min": 2, "max": 10, "completedRoundCount": 1}],
-        "totalScore": 0,
-        "finishedGamesCount": 0
+        "score": 10,
+        "gameScores": [10],
+        "totalScore": 10,
+        "finishedGamesCount": 1
       },
       {
         "robot": {"id": "mustik", "name": "Mustik"},
-        "tieBreakScore": 0,
+        "tieBreakScore": 10,
         "rank": 2,
         "score": 0,
-        "gameScores": [{"min": 0, "max": 8, "completedRoundCount": 1}],
+        "gameScores": [0],
         "totalScore": 0,
-        "finishedGamesCount": 0
+        "finishedGamesCount": 1
       },
       {
         "robot": {"id": "optimus-crime", "name": "Optimus Crime"},
@@ -312,68 +316,46 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1,
+    "id": 2,
     "robots": [
-      {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
-      {"id": "mustik", "name": "Mustik"}
+      {"id": "optimus-crime", "name": "Optimus Crime"},
+      {"id": "bender", "name": "Bender"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
     "hasEnded": false,
     "rounds": [
       {
-        "scores": [[{"time": 1795109293397, "isValid": true}], []],
-        "fouls": [[], [{"time": 1795109233915, "isValid": true}]],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795109350211,
-        "duration": 60074,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1795109202913, "endTime": 1795109224112},
-          {"startTime": 1795109285672, "endTime": 1795109324547}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1795109520255, "isValid": true},
-            {"time": 1795109529875, "isValid": true}
-          ],
-          []
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
+        "readyStates": [false, false],
+        "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 49590,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795109480288, "endTime": null}]
+        "runs": []
       }
     ],
     "status": {
       "result": "unknown",
-      "indexCounts": {"0": 1, "1": 0, "-1": 0},
-      "completedRoundCount": 1
+      "indexCounts": {"0": 0, "1": 0, "-1": 0},
+      "completedRoundCount": 0
     },
     "ballPlacement": [
       [0, 0],
-      [0.56, -0.61],
-      [-0.56, 0.61],
-      [-0.6, -0.02],
-      [0.6, 0.02],
-      [-0.46, -1.42],
-      [0.46, 1.42],
-      [1.77, -0.31],
-      [-1.77, 0.31],
-      [-1.67, 1.22],
-      [1.67, -1.22]
+      [0.23, -0.9],
+      [-0.23, 0.9],
+      [-0.56, -0.41],
+      [0.56, 0.41],
+      [1.07, 0.62],
+      [-1.07, -0.62],
+      [-0.93, -0.38],
+      [0.93, 0.38],
+      [1.29, 1.07],
+      [-1.29, -1.07]
     ]
   }
 }
