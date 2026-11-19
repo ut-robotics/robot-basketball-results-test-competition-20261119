@@ -529,7 +529,10 @@
               [{"time": 1795112097982, "isValid": true}]
             ],
             "fouls": [
-              [{"time": 1795112156204, "isValid": true}],
+              [
+                {"time": 1795112156204, "isValid": true},
+                {"time": 1795112191228, "isValid": true}
+              ],
               [{"time": 1795112112396, "isValid": true}]
             ],
             "readyStates": [true, true],
@@ -537,13 +540,14 @@
             "hasEnded": false,
             "isConfirmed": false,
             "confirmTime": null,
-            "duration": 52601,
+            "duration": 58769,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1795112035480, "endTime": 1795112057760},
               {"startTime": 1795112081696, "endTime": 1795112105056},
-              {"startTime": 1795112145224, "endTime": 1795112152185}
+              {"startTime": 1795112145224, "endTime": 1795112152185},
+              {"startTime": 1795112177848, "endTime": 1795112184016}
             ]
           }
         ],
@@ -806,7 +810,10 @@
           [{"time": 1795112097982, "isValid": true}]
         ],
         "fouls": [
-          [{"time": 1795112156204, "isValid": true}],
+          [
+            {"time": 1795112156204, "isValid": true},
+            {"time": 1795112191228, "isValid": true}
+          ],
           [{"time": 1795112112396, "isValid": true}]
         ],
         "readyStates": [true, true],
@@ -814,13 +821,14 @@
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 52601,
+        "duration": 58769,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1795112035480, "endTime": 1795112057760},
           {"startTime": 1795112081696, "endTime": 1795112105056},
-          {"startTime": 1795112145224, "endTime": 1795112152185}
+          {"startTime": 1795112145224, "endTime": 1795112152185},
+          {"startTime": 1795112177848, "endTime": 1795112184016}
         ]
       }
     ],
