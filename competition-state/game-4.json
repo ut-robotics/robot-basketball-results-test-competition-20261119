@@ -1,0 +1,36 @@
+{
+  "id": 4,
+  "robots": [
+    {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"},
+    {"id": "munakivi", "name": "Munakivi"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "confirmTime": null,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.19, 0.49],
+    [-0.19, -0.49],
+    [0.8, -0.6],
+    [-0.8, 0.6],
+    [-1.89, 1.37],
+    [1.89, -1.37],
+    [1.08, -1.14],
+    [-1.08, 1.14],
+    [1.83, -0.33],
+    [-1.83, 0.33]
+  ]
+}

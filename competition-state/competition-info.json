@@ -11,5 +11,35 @@
     {"id": "rim-reaper", "name": "Rim Reaper"},
     {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
+      {"id": "mustik", "name": "Mustik"},
+      {"id": "optimus-crime", "name": "Optimus Crime"},
+      {"id": "bender", "name": "Bender"},
+      {"id": "rim-reaper", "name": "Rim Reaper"},
+      {"id": "coughing-baby", "name": "Coughing Baby"},
+      {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"},
+      {"id": "munakivi", "name": "Munakivi"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3, 4],
+    "byes": [],
+    "robotStartingBaskets": {
+      "kerr-kriisa": ["blue"],
+      "mustik": ["magenta"],
+      "optimus-crime": ["blue"],
+      "bender": ["magenta"],
+      "rim-reaper": ["magenta"],
+      "coughing-baby": ["blue"],
+      "ulakas-kaunitar": ["magenta"],
+      "munakivi": ["blue"]
+    },
+    "hasEnded": false
+  }
 }
