@@ -270,11 +270,11 @@ class CompetitionResults extends LitElement {
             <table>
                 <thead><th>Result</th><th>Robot 1 (winner) points</th><th>Robot 2 points</th></thead>
                 <tbody>
-                <tr><td>2 out of 2 round wins</td><td>1</td><td>0</td></tr>
-                <tr><td>2 out of 3 round wins and 1 tied round</td><td>0.9</td><td>0.1</td></tr>
-                <tr><td>2 out of 3 round wins and 1 lost round</td><td>0.8</td><td>0.2</td></tr>
-                <tr><td>1 out of 3 round wins and 2 tied rounds</td><td>0.7</td><td>0.3</td></tr>
-                <tr><td>Tie</td><td>0.5</td><td>0.5</td></tr>
+                <tr><td>2 out of 2 round wins</td><td>10</td><td>0</td></tr>
+                <tr><td>2 out of 3 round wins and 1 tied round</td><td>9</td><td>1</td></tr>
+                <tr><td>2 out of 3 round wins and 1 lost round</td><td>8</td><td>2</td></tr>
+                <tr><td>1 out of 3 round wins and 2 tied rounds</td><td>7</td><td>3</td></tr>
+                <tr><td>Tie</td><td>5</td><td>5</td></tr>
                 </tbody>
             </table>`;
     }
