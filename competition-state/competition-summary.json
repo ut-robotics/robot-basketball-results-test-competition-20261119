@@ -288,5 +288,48 @@
       "munakivi": ["blue"]
     },
     "hasEnded": false
+  },
+  "activeGame": {
+    "id": 1,
+    "robots": [
+      {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
+      {"id": "mustik", "name": "Mustik"}
+    ],
+    "startingBaskets": ["blue", "magenta"],
+    "isTieAllowed": true,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "readyStates": [false, false],
+        "baskets": ["blue", "magenta"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "confirmTime": null,
+        "duration": 0,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": []
+      }
+    ],
+    "status": {
+      "result": "unknown",
+      "indexCounts": {"0": 0, "1": 0, "-1": 0},
+      "completedRoundCount": 0
+    },
+    "ballPlacement": [
+      [0, 0],
+      [0.56, -0.61],
+      [-0.56, 0.61],
+      [-0.6, -0.02],
+      [0.6, 0.02],
+      [-0.46, -1.42],
+      [0.46, 1.42],
+      [1.77, -0.31],
+      [-1.77, 0.31],
+      [-1.67, 1.22],
+      [1.67, -1.22]
+    ]
   }
 }
