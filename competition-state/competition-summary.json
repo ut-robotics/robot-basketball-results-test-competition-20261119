@@ -743,7 +743,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[], []],
@@ -772,13 +772,13 @@
             "runs": [{"startTime": 1795113118776, "endTime": 1795113178886}]
           },
           {
-            "scores": [[], [{"time": 1795113391349, "isValid": true}]],
+            "scores": [[], [{"time": 1795113391349, "isValid": false}]],
             "fouls": [[{"time": 1795113312932, "isValid": true}], []],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
-            "isConfirmed": false,
-            "confirmTime": null,
+            "isConfirmed": true,
+            "confirmTime": 1795113493187,
             "duration": 60074,
             "timeLimit": 60000,
             "winnerIndex": -1,
@@ -789,9 +789,13 @@
           }
         ],
         "status": {
-          "result": "unknown",
-          "indexCounts": {"0": 1, "1": 0, "-1": 1},
-          "completedRoundCount": 2
+          "result": "won",
+          "indexCounts": {"0": 1, "1": 0, "-1": 2},
+          "completedRoundCount": 3,
+          "winner": {"id": "rim-reaper", "name": "Rim Reaper"},
+          "roundWinCount": 1,
+          "roundLossCount": 0,
+          "roundTieCount": 2
         },
         "ballPlacement": [
           [0, 0],
@@ -950,7 +954,7 @@
       },
       {
         "robot": {"id": "coughing-baby", "name": "Coughing Baby"},
-        "tieBreakScore": 6,
+        "tieBreakScore": 7.833333333333334,
         "rank": 2,
         "score": 10,
         "gameScores": [10, 10, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -959,7 +963,7 @@
       },
       {
         "robot": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
-        "tieBreakScore": 11.5,
+        "tieBreakScore": 12,
         "rank": 3,
         "score": 5,
         "gameScores": [10, 0, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -977,7 +981,7 @@
       },
       {
         "robot": {"id": "munakivi", "name": "Munakivi"},
-        "tieBreakScore": 6,
+        "tieBreakScore": 6.5,
         "rank": 5,
         "score": 4,
         "gameScores": [1, 7, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -986,7 +990,7 @@
       },
       {
         "robot": {"id": "optimus-crime", "name": "Optimus Crime"},
-        "tieBreakScore": 11.5,
+        "tieBreakScore": 13.333333333333334,
         "rank": 6,
         "score": 3.5,
         "gameScores": [0, 7, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -995,21 +999,21 @@
       },
       {
         "robot": {"id": "rim-reaper", "name": "Rim Reaper"},
-        "tieBreakScore": 13.5,
+        "tieBreakScore": 15.5,
         "rank": 7,
-        "score": 1.5,
-        "gameScores": [0, 3, {"min": 5, "max": 9, "completedRoundCount": 2}],
-        "totalScore": 3,
-        "finishedGamesCount": 2
+        "score": 3.3333333333333335,
+        "gameScores": [0, 3, 7],
+        "totalScore": 10,
+        "finishedGamesCount": 3
       },
       {
         "robot": {"id": "mustik", "name": "Mustik"},
-        "tieBreakScore": 9,
+        "tieBreakScore": 12.333333333333334,
         "rank": 8,
-        "score": 1.5,
-        "gameScores": [0, 3, {"min": 1, "max": 5, "completedRoundCount": 2}],
-        "totalScore": 3,
-        "finishedGamesCount": 2
+        "score": 2,
+        "gameScores": [0, 3, 3],
+        "totalScore": 6,
+        "finishedGamesCount": 3
       }
     ],
     "robotStartingBaskets": {
@@ -1025,10 +1029,10 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 9,
+    "id": 10,
     "robots": [
-      {"id": "rim-reaper", "name": "Rim Reaper"},
-      {"id": "mustik", "name": "Mustik"}
+      {"id": "munakivi", "name": "Munakivi"},
+      {"id": "optimus-crime", "name": "Optimus Crime"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
@@ -1037,63 +1041,34 @@
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [false, false],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795113053422,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1795112986912, "endTime": 1795113047007}]
-      },
-      {
-        "scores": [[{"time": 1795113126213, "isValid": true}], []],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795113187654,
-        "duration": 60110,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1795113118776, "endTime": 1795113178886}]
-      },
-      {
-        "scores": [[], [{"time": 1795113391349, "isValid": true}]],
-        "fouls": [[{"time": 1795113312932, "isValid": true}], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
+        "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 60074,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1795113278848, "endTime": 1795113308792},
-          {"startTime": 1795113358800, "endTime": 1795113388930}
-        ]
+        "runs": []
       }
     ],
     "status": {
       "result": "unknown",
-      "indexCounts": {"0": 1, "1": 0, "-1": 1},
-      "completedRoundCount": 2
+      "indexCounts": {"0": 0, "1": 0, "-1": 0},
+      "completedRoundCount": 0
     },
     "ballPlacement": [
       [0, 0],
-      [1.33, -1.21],
-      [-1.33, 1.21],
-      [-1.42, -0.6],
-      [1.42, 0.6],
-      [-0.36, 1.38],
-      [0.36, -1.38],
-      [1.34, -0.29],
-      [-1.34, 0.29],
-      [0.39, 1.32],
-      [-0.39, -1.32]
+      [-2.12, 0.99],
+      [2.12, -0.99],
+      [-2.14, 0.63],
+      [2.14, -0.63],
+      [0.43, 0.88],
+      [-0.43, -0.88],
+      [0.19, -0.58],
+      [-0.19, 0.58],
+      [0.3, -0.19],
+      [-0.3, 0.19]
     ]
   }
 }
