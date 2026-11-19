@@ -1,0 +1,36 @@
+{
+  "id": 7,
+  "robots": [
+    {"id": "coughing-baby", "name": "Coughing Baby"},
+    {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "confirmTime": null,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.79, -0.37],
+    [-0.79, 0.37],
+    [1.36, 1.07],
+    [-1.36, -1.07],
+    [0.12, -0.96],
+    [-0.12, 0.96],
+    [1.73, -1.43],
+    [-1.73, 1.43],
+    [1.46, 0.86],
+    [-1.46, -0.86]
+  ]
+}

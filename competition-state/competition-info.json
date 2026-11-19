@@ -28,17 +28,17 @@
       {"id": "munakivi", "name": "Munakivi"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8],
     "byes": [],
     "robotStartingBaskets": {
-      "kerr-kriisa": ["blue"],
-      "mustik": ["magenta"],
-      "optimus-crime": ["blue"],
-      "bender": ["magenta"],
-      "rim-reaper": ["magenta"],
-      "coughing-baby": ["blue"],
-      "ulakas-kaunitar": ["magenta"],
-      "munakivi": ["blue"]
+      "kerr-kriisa": ["blue", "magenta"],
+      "mustik": ["magenta", "blue"],
+      "optimus-crime": ["blue", "magenta"],
+      "bender": ["magenta", "blue"],
+      "rim-reaper": ["magenta", "blue"],
+      "coughing-baby": ["blue", "magenta"],
+      "ulakas-kaunitar": ["magenta", "blue"],
+      "munakivi": ["blue", "magenta"]
     },
     "hasEnded": false
   }
