@@ -367,7 +367,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -431,19 +431,23 @@
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "confirmTime": null,
-            "duration": 35221,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "confirmTime": 1795111462140,
+            "duration": 60046,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1795111397536, "endTime": null}]
+            "runs": [{"startTime": 1795111397536, "endTime": 1795111457582}]
           }
         ],
         "status": {
-          "result": "unknown",
-          "indexCounts": {"0": 1, "1": 0, "-1": 1},
-          "completedRoundCount": 2
+          "result": "won",
+          "indexCounts": {"0": 1, "1": 0, "-1": 2},
+          "completedRoundCount": 3,
+          "winner": {"id": "optimus-crime", "name": "Optimus Crime"},
+          "roundWinCount": 1,
+          "roundLossCount": 0,
+          "roundTieCount": 2
         },
         "ballPlacement": [
           [0, 0],
@@ -592,8 +596,8 @@
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
-        "tieBreakScore": 0,
+        "robot": {"id": "bender", "name": "Bender"},
+        "tieBreakScore": 3.5,
         "rank": 1,
         "score": 10,
         "gameScores": [10, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -601,8 +605,8 @@
         "finishedGamesCount": 1
       },
       {
-        "robot": {"id": "bender", "name": "Bender"},
-        "tieBreakScore": 0,
+        "robot": {"id": "coughing-baby", "name": "Coughing Baby"},
+        "tieBreakScore": 1.5,
         "rank": 2,
         "score": 10,
         "gameScores": [10, {"min": 0, "max": 10, "completedRoundCount": 0}],
@@ -610,7 +614,7 @@
         "finishedGamesCount": 1
       },
       {
-        "robot": {"id": "coughing-baby", "name": "Coughing Baby"},
+        "robot": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
         "tieBreakScore": 0,
         "rank": 3,
         "score": 10,
@@ -628,9 +632,27 @@
         "finishedGamesCount": 1
       },
       {
+        "robot": {"id": "optimus-crime", "name": "Optimus Crime"},
+        "tieBreakScore": 11.5,
+        "rank": 5,
+        "score": 3.5,
+        "gameScores": [0, 7],
+        "totalScore": 7,
+        "finishedGamesCount": 2
+      },
+      {
+        "robot": {"id": "rim-reaper", "name": "Rim Reaper"},
+        "tieBreakScore": 13.5,
+        "rank": 6,
+        "score": 1.5,
+        "gameScores": [0, 3],
+        "totalScore": 3,
+        "finishedGamesCount": 2
+      },
+      {
         "robot": {"id": "munakivi", "name": "Munakivi"},
         "tieBreakScore": 9,
-        "rank": 5,
+        "rank": 7,
         "score": 1,
         "gameScores": [1, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 1,
@@ -639,27 +661,9 @@
       {
         "robot": {"id": "mustik", "name": "Mustik"},
         "tieBreakScore": 10,
-        "rank": 6,
-        "score": 0,
-        "gameScores": [0, {"min": 0, "max": 10, "completedRoundCount": 0}],
-        "totalScore": 0,
-        "finishedGamesCount": 1
-      },
-      {
-        "robot": {"id": "optimus-crime", "name": "Optimus Crime"},
-        "tieBreakScore": 10,
-        "rank": 7,
-        "score": 0,
-        "gameScores": [0, {"min": 5, "max": 9, "completedRoundCount": 2}],
-        "totalScore": 0,
-        "finishedGamesCount": 1
-      },
-      {
-        "robot": {"id": "rim-reaper", "name": "Rim Reaper"},
-        "tieBreakScore": 10,
         "rank": 8,
         "score": 0,
-        "gameScores": [0, {"min": 1, "max": 5, "completedRoundCount": 2}],
+        "gameScores": [0, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 0,
         "finishedGamesCount": 1
       }
@@ -684,7 +688,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -748,19 +752,23 @@
         "fouls": [[], []],
         "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "confirmTime": null,
-        "duration": 35221,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "confirmTime": 1795111462140,
+        "duration": 60046,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795111397536, "endTime": null}]
+        "runs": [{"startTime": 1795111397536, "endTime": 1795111457582}]
       }
     ],
     "status": {
-      "result": "unknown",
-      "indexCounts": {"0": 1, "1": 0, "-1": 1},
-      "completedRoundCount": 2
+      "result": "won",
+      "indexCounts": {"0": 1, "1": 0, "-1": 2},
+      "completedRoundCount": 3,
+      "winner": {"id": "optimus-crime", "name": "Optimus Crime"},
+      "roundWinCount": 1,
+      "roundLossCount": 0,
+      "roundTieCount": 2
     },
     "ballPlacement": [
       [0, 0],
