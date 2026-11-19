@@ -1,0 +1,36 @@
+{
+  "id": 9,
+  "robots": [
+    {"id": "rim-reaper", "name": "Rim Reaper"},
+    {"id": "mustik", "name": "Mustik"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "confirmTime": null,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.33, -1.21],
+    [-1.33, 1.21],
+    [-1.42, -0.6],
+    [1.42, 0.6],
+    [-0.36, 1.38],
+    [0.36, -1.38],
+    [1.34, -0.29],
+    [-1.34, 0.29],
+    [0.39, 1.32],
+    [-0.39, -1.32]
+  ]
+}

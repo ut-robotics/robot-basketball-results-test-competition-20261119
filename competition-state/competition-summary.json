@@ -666,7 +666,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -694,25 +694,32 @@
               [],
               [
                 {"time": 1795112854578, "isValid": true},
-                {"time": 1795112863769, "isValid": true}
+                {"time": 1795112863769, "isValid": true},
+                {"time": 1795112877695, "isValid": true},
+                {"time": 1795112885732, "isValid": true},
+                {"time": 1795112890746, "isValid": true}
               ]
             ],
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "confirmTime": null,
-            "duration": 33603,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "confirmTime": 1795112898866,
+            "duration": 60076,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1795112830168, "endTime": null}]
+            "winnerIndex": 1,
+            "runs": [{"startTime": 1795112830168, "endTime": 1795112890244}]
           }
         ],
         "status": {
-          "result": "unknown",
-          "indexCounts": {"0": 0, "1": 1, "-1": 0},
-          "completedRoundCount": 1
+          "result": "won",
+          "indexCounts": {"0": 0, "1": 2, "-1": 0},
+          "completedRoundCount": 2,
+          "winner": {"id": "bender", "name": "Bender"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
         },
         "ballPlacement": [
           [0, 0],
@@ -727,43 +734,215 @@
           [1.43, 1.28],
           [-1.43, -1.28]
         ]
+      },
+      {
+        "id": 9,
+        "robots": [
+          {"id": "rim-reaper", "name": "Rim Reaper"},
+          {"id": "mustik", "name": "Mustik"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "confirmTime": null,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {
+          "result": "unknown",
+          "indexCounts": {"0": 0, "1": 0, "-1": 0},
+          "completedRoundCount": 0
+        },
+        "ballPlacement": [
+          [0, 0],
+          [1.33, -1.21],
+          [-1.33, 1.21],
+          [-1.42, -0.6],
+          [1.42, 0.6],
+          [-0.36, 1.38],
+          [0.36, -1.38],
+          [1.34, -0.29],
+          [-1.34, 0.29],
+          [0.39, 1.32],
+          [-0.39, -1.32]
+        ]
+      },
+      {
+        "id": 10,
+        "robots": [
+          {"id": "munakivi", "name": "Munakivi"},
+          {"id": "optimus-crime", "name": "Optimus Crime"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "confirmTime": null,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {
+          "result": "unknown",
+          "indexCounts": {"0": 0, "1": 0, "-1": 0},
+          "completedRoundCount": 0
+        },
+        "ballPlacement": [
+          [0, 0],
+          [-2.12, 0.99],
+          [2.12, -0.99],
+          [-2.14, 0.63],
+          [2.14, -0.63],
+          [0.43, 0.88],
+          [-0.43, -0.88],
+          [0.19, -0.58],
+          [-0.19, 0.58],
+          [0.3, -0.19],
+          [-0.3, 0.19]
+        ]
+      },
+      {
+        "id": 11,
+        "robots": [
+          {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
+          {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "confirmTime": null,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {
+          "result": "unknown",
+          "indexCounts": {"0": 0, "1": 0, "-1": 0},
+          "completedRoundCount": 0
+        },
+        "ballPlacement": [
+          [0, 0],
+          [-1.5, 0.1],
+          [1.5, -0.1],
+          [0.76, 0.9],
+          [-0.76, -0.9],
+          [-1.94, 0.96],
+          [1.94, -0.96],
+          [1.49, 1.32],
+          [-1.49, -1.32],
+          [0.36, -1.26],
+          [-0.36, 1.26]
+        ]
+      },
+      {
+        "id": 12,
+        "robots": [
+          {"id": "bender", "name": "Bender"},
+          {"id": "coughing-baby", "name": "Coughing Baby"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "confirmTime": null,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {
+          "result": "unknown",
+          "indexCounts": {"0": 0, "1": 0, "-1": 0},
+          "completedRoundCount": 0
+        },
+        "ballPlacement": [
+          [0, 0],
+          [-1.07, 0.55],
+          [1.07, -0.55],
+          [0.51, 0.52],
+          [-0.51, -0.52],
+          [0.47, -0.16],
+          [-0.47, 0.16],
+          [-2.17, 1.19],
+          [2.17, -1.19],
+          [-0.84, -0.58],
+          [0.84, 0.58]
+        ]
       }
     ],
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "coughing-baby", "name": "Coughing Baby"},
-        "tieBreakScore": 6,
+        "robot": {"id": "bender", "name": "Bender"},
+        "tieBreakScore": 8.5,
         "rank": 1,
         "score": 10,
-        "gameScores": [10, 10],
+        "gameScores": [10, 10, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 20,
         "finishedGamesCount": 2
       },
       {
-        "robot": {"id": "bender", "name": "Bender"},
-        "tieBreakScore": 3.5,
+        "robot": {"id": "coughing-baby", "name": "Coughing Baby"},
+        "tieBreakScore": 6,
         "rank": 2,
         "score": 10,
-        "gameScores": [10, {"min": 2, "max": 10, "completedRoundCount": 1}],
-        "totalScore": 10,
-        "finishedGamesCount": 1
+        "gameScores": [10, 10, {"min": 0, "max": 10, "completedRoundCount": 0}],
+        "totalScore": 20,
+        "finishedGamesCount": 2
       },
       {
         "robot": {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
-        "tieBreakScore": 1.5,
+        "tieBreakScore": 11.5,
         "rank": 3,
-        "score": 10,
-        "gameScores": [10, {"min": 0, "max": 8, "completedRoundCount": 1}],
+        "score": 5,
+        "gameScores": [10, 0, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 10,
-        "finishedGamesCount": 1
+        "finishedGamesCount": 2
       },
       {
         "robot": {"id": "ulakas-kaunitar", "name": "Ulakas Kaunitar"},
         "tieBreakScore": 14,
         "rank": 4,
         "score": 4.5,
-        "gameScores": [9, 0],
+        "gameScores": [9, 0, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 9,
         "finishedGamesCount": 2
       },
@@ -772,7 +951,7 @@
         "tieBreakScore": 6,
         "rank": 5,
         "score": 4,
-        "gameScores": [1, 7],
+        "gameScores": [1, 7, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 8,
         "finishedGamesCount": 2
       },
@@ -781,109 +960,82 @@
         "tieBreakScore": 11.5,
         "rank": 6,
         "score": 3.5,
-        "gameScores": [0, 7],
+        "gameScores": [0, 7, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 7,
-        "finishedGamesCount": 2
-      },
-      {
-        "robot": {"id": "mustik", "name": "Mustik"},
-        "tieBreakScore": 14,
-        "rank": 7,
-        "score": 1.5,
-        "gameScores": [0, 3],
-        "totalScore": 3,
         "finishedGamesCount": 2
       },
       {
         "robot": {"id": "rim-reaper", "name": "Rim Reaper"},
         "tieBreakScore": 13.5,
+        "rank": 7,
+        "score": 1.5,
+        "gameScores": [0, 3, {"min": 0, "max": 10, "completedRoundCount": 0}],
+        "totalScore": 3,
+        "finishedGamesCount": 2
+      },
+      {
+        "robot": {"id": "mustik", "name": "Mustik"},
+        "tieBreakScore": 9,
         "rank": 8,
         "score": 1.5,
-        "gameScores": [0, 3],
+        "gameScores": [0, 3, {"min": 0, "max": 10, "completedRoundCount": 0}],
         "totalScore": 3,
         "finishedGamesCount": 2
       }
     ],
     "robotStartingBaskets": {
-      "kerr-kriisa": ["blue", "magenta"],
-      "mustik": ["magenta", "blue"],
-      "optimus-crime": ["blue", "magenta"],
-      "bender": ["magenta", "blue"],
-      "rim-reaper": ["magenta", "blue"],
-      "coughing-baby": ["blue", "magenta"],
-      "ulakas-kaunitar": ["magenta", "blue"],
-      "munakivi": ["blue", "magenta"]
+      "kerr-kriisa": ["blue", "magenta", "blue"],
+      "mustik": ["magenta", "blue", "blue"],
+      "optimus-crime": ["blue", "magenta", "blue"],
+      "bender": ["magenta", "blue", "magenta"],
+      "rim-reaper": ["magenta", "blue", "magenta"],
+      "coughing-baby": ["blue", "magenta", "blue"],
+      "ulakas-kaunitar": ["magenta", "blue", "magenta"],
+      "munakivi": ["blue", "magenta", "magenta"]
     },
     "hasEnded": false
   },
   "activeGame": {
-    "id": 8,
+    "id": 9,
     "robots": [
-      {"id": "kerr-kriisa", "name": "Kerr Kriisa"},
-      {"id": "bender", "name": "Bender"}
+      {"id": "rim-reaper", "name": "Rim Reaper"},
+      {"id": "mustik", "name": "Mustik"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
     "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1795112698379, "isValid": true},
-            {"time": 1795112710882, "isValid": true},
-            {"time": 1795112737544, "isValid": true},
-            {"time": 1795112742536, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [false, false],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "confirmTime": 1795112751802,
-        "duration": 60024,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1795112686985, "endTime": 1795112747009}]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1795112854578, "isValid": true},
-            {"time": 1795112863769, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 33603,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795112830168, "endTime": null}]
+        "runs": []
       }
     ],
     "status": {
       "result": "unknown",
-      "indexCounts": {"0": 0, "1": 1, "-1": 0},
-      "completedRoundCount": 1
+      "indexCounts": {"0": 0, "1": 0, "-1": 0},
+      "completedRoundCount": 0
     },
     "ballPlacement": [
       [0, 0],
-      [-0.3, -0.33],
-      [0.3, 0.33],
-      [-0.39, 0.4],
-      [0.39, -0.4],
-      [-0.61, 1.28],
-      [0.61, -1.28],
-      [1.81, -0.32],
-      [-1.81, 0.32],
-      [1.43, 1.28],
-      [-1.43, -1.28]
+      [1.33, -1.21],
+      [-1.33, 1.21],
+      [-1.42, -0.6],
+      [1.42, 0.6],
+      [-0.36, 1.38],
+      [0.36, -1.38],
+      [1.34, -0.29],
+      [-1.34, 0.29],
+      [0.39, 1.32],
+      [-0.39, -1.32]
     ]
   }
 }

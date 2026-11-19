@@ -1,0 +1,36 @@
+{
+  "id": 12,
+  "robots": [
+    {"id": "bender", "name": "Bender"},
+    {"id": "coughing-baby", "name": "Coughing Baby"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "confirmTime": null,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.07, 0.55],
+    [1.07, -0.55],
+    [0.51, 0.52],
+    [-0.51, -0.52],
+    [0.47, -0.16],
+    [-0.47, 0.16],
+    [-2.17, 1.19],
+    [2.17, -1.19],
+    [-0.84, -0.58],
+    [0.84, 0.58]
+  ]
+}
