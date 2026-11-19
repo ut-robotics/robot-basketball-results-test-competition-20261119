@@ -962,9 +962,13 @@
               [
                 {"time": 1795114459414, "isValid": true},
                 {"time": 1795114468082, "isValid": true},
-                {"time": 1795114475959, "isValid": true}
+                {"time": 1795114475959, "isValid": true},
+                {"time": 1795114501231, "isValid": true}
               ],
-              [{"time": 1795114463187, "isValid": true}]
+              [
+                {"time": 1795114463187, "isValid": true},
+                {"time": 1795114497534, "isValid": true}
+              ]
             ],
             "fouls": [[], []],
             "readyStates": [true, true],
@@ -972,10 +976,10 @@
             "hasEnded": false,
             "isConfirmed": false,
             "confirmTime": null,
-            "duration": 32523,
+            "duration": 56449,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1795114443439, "endTime": null}]
+            "runs": [{"startTime": 1795114443439, "endTime": 1795114499888}]
           }
         ],
         "status": {
@@ -1165,9 +1169,13 @@
           [
             {"time": 1795114459414, "isValid": true},
             {"time": 1795114468082, "isValid": true},
-            {"time": 1795114475959, "isValid": true}
+            {"time": 1795114475959, "isValid": true},
+            {"time": 1795114501231, "isValid": true}
           ],
-          [{"time": 1795114463187, "isValid": true}]
+          [
+            {"time": 1795114463187, "isValid": true},
+            {"time": 1795114497534, "isValid": true}
+          ]
         ],
         "fouls": [[], []],
         "readyStates": [true, true],
@@ -1175,10 +1183,10 @@
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 32524,
+        "duration": 56449,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1795114443439, "endTime": null}]
+        "runs": [{"startTime": 1795114443439, "endTime": 1795114499888}]
       }
     ],
     "status": {
