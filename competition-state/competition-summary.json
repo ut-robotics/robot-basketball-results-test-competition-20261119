@@ -938,15 +938,15 @@
           {
             "scores": [[], []],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
             "confirmTime": null,
-            "duration": 0,
+            "duration": 5,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1795114285336, "endTime": null}]
           }
         ],
         "status": {
@@ -1112,15 +1112,15 @@
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [false, false],
+        "readyStates": [true, true],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
         "confirmTime": null,
-        "duration": 0,
+        "duration": 5,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": []
+        "runs": [{"startTime": 1795114285336, "endTime": null}]
       }
     ],
     "status": {
