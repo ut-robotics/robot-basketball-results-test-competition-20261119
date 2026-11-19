@@ -29,7 +29,17 @@
       "runs": [{"startTime": 1795109690608, "endTime": 1795109750610}]
     },
     {
-      "scores": [[], []],
+      "scores": [
+        [],
+        [
+          {"time": 1795109874902, "isValid": true},
+          {"time": 1795109879486, "isValid": true},
+          {"time": 1795109884868, "isValid": true},
+          {"time": 1795109887731, "isValid": true},
+          {"time": 1795109891904, "isValid": true},
+          {"time": 1795109897512, "isValid": true}
+        ]
+      ],
       "fouls": [[], []],
       "readyStates": [true, true],
       "baskets": ["magenta", "blue"],
