@@ -302,7 +302,7 @@
           {
             "scores": [[], []],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [false, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -463,7 +463,7 @@
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [false, false],
+        "readyStates": [false, true],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
